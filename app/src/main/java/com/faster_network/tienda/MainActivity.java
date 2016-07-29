@@ -21,6 +21,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.faster_network.tienda.MODELO.Categoria;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
@@ -29,8 +30,7 @@ import org.json.JSONException;
 
 import cz.msebera.android.httpclient.Header;
 
-import static com.faster_network.tienda.Lkcategoria.categoriaa;
-import static com.faster_network.tienda.Lkproducto.productoo;
+import static com.faster_network.tienda.OPERACION.Lkcategoria.categoriaa;
 
 
 public class MainActivity extends AppCompatActivity

@@ -1,4 +1,4 @@
-package com.faster_network.tienda;
+package com.faster_network.tienda.MODELO;
 
 /**
  * Created by undercoder on 8/07/2016.

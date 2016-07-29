@@ -9,25 +9,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombre del Fiador"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="113dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="16dp" />
+        android:textColor="#333333"
+        android:textSize="20dp"/>
 
-
-    <!-- Categoría -->
     <TextView
         android:id="@+id/estado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Estado del fiador"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/accent"
         android:layout_alignTop="@+id/nombre_fiador"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"/>
 
 
 </RelativeLayout>

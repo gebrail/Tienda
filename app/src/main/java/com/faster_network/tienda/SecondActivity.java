@@ -11,18 +11,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.faster_network.tienda.MODELO.Producto;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.squareup.picasso.Picasso;
 import org.json.JSONArray;
 import org.json.JSONException;
 import cz.msebera.android.httpclient.Header;
-import static com.faster_network.tienda.Lkproducto.productoo;
+import static com.faster_network.tienda.OPERACION.Lkproducto.productoo;
 
 public class SecondActivity extends AppCompatActivity {
     private ListView lista;

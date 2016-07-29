@@ -1,22 +1,11 @@
-package com.faster_network.tienda;
-import android.app.ProgressDialog;
+package com.faster_network.tienda.OPERACION;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-
 import java.util.LinkedList;
-
-import cz.msebera.android.httpclient.Header;
-
-import static com.faster_network.tienda.Lkproducto.productoo;
 
 /**
  * Created by Gebrail on 19/07/2016.

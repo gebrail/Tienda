@@ -1,4 +1,6 @@
-package com.faster_network.tienda;
+package com.faster_network.tienda.OPERACION;
+
+import com.faster_network.tienda.MODELO.Categoria;
 
 import java.util.LinkedList;
 
